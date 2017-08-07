@@ -4,7 +4,6 @@
   "plugins": {
     "metalsmith-markdown": true,
     "metalsmith-layouts": {
-      "default": "default.html",
       "engine": "handlebars"
     }
   }
