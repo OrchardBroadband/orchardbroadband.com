@@ -1,0 +1,24 @@
+{
+  "name": "orchardbroadband.com",
+  "version": "1.0.0",
+  "description": "Public site for Orchard Broadband",
+  "main": "index.js",
+  "scripts": {
+    "build": "metalsmith",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchardBroadband/orchardbroadband.com.git"
+  },
+  "author": "David Cox <losttime.shuffle@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/OrchardBroadband/orchardbroadband.com/issues"
+  },
+  "homepage": "https://github.com/OrchardBroadband/orchardbroadband.com#readme",
+  "devDependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-markdown": "^0.2.1"
+  }
+}
