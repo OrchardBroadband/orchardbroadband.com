@@ -6,6 +6,6 @@ Public site for Orchard Broadband
 1. Clone this repo
 2. `npm install`
 3. Get images
-   - `logo.svg`
-   - favicons from `favicons.zip`
+   - `logo.svg` in `images/`
+   - favicons in `platform/*` from `favicons.zip`
 4. `npm run dev` to generate and serve site
