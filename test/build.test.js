@@ -1,6 +1,13 @@
 const fs = require('fs');
+const path = require('path');
+const process = require('process');
 
 describe('build home', () => {
+	console.log('cwd', process.cwd());
+	console.log('filename', __filename);
+	console.log('dirname', __dirname);
+	console.log('constructed from dirname', path.resolve(__dirname, '../build/index.html'));
+	console.log('constructed from cwd', path.resolve(process.cwd(), 'build/index.html'));
 	test('exists', () => {
 		expect(fs.existsSync('build/index.html')).toBeTruthy()
 	});	
