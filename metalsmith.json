@@ -19,7 +19,8 @@
       }]
     },
     "metalsmith-layouts": {
-      "engine": "handlebars"
+      "engine": "handlebars",
+      "partials": "partials"
     }
   }
 }

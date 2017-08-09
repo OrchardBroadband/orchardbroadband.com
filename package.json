@@ -8,7 +8,7 @@
     "dev": "concurrently --kill-others \"npm run serve\" \"npm run watch\"",
     "serve": "http-server ./build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "chokidar \"src/**/*\" \"layouts/**/*\" -c \"npm run build\" --initial"
+    "watch": "chokidar \"src/**/*\" \"layouts/**/*\" \"partials/**/*\" -c \"npm run build\" --initial"
   },
   "repository": {
     "type": "git",
