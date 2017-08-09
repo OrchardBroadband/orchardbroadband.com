@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{> head }}
+	</head>
+	<body>
+		{{> header }}
+		{{#each collections.posts}}
+			<div class='post'>
+				<p>{{{title}}}</p>
+				<p>{{summary}}</p>
+			</div>
+		{{/each}}
+	</body>
+</html>

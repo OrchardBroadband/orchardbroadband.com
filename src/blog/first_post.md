@@ -2,8 +2,7 @@
 layout: blog.html
 title: First Post
 date: 2017-08-08
+summary: This is the first
 ---
-
-# Orchard Broadband
 
 This is the first blog post

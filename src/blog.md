@@ -1,5 +1,5 @@
 ---
-layout: blog.html
+layout: blog_home.html
 title: Orchard Broadband Blog
 date: 2014-12-01
 ---
