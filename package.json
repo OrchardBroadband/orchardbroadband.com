@@ -7,7 +7,7 @@
     "build": "metalsmith",
     "dev": "concurrently --kill-others \"npm run serve\" \"npm run watch\"",
     "serve": "http-server ./build",
-    "test": "jest",
+    "test": "npm run test:build",
     "test:build": "npm run build && jest",
     "watch": "chokidar \"src/**/*\" \"layouts/**/*\" \"partials/**/*\" -c \"npm run build\" --initial"
   },
