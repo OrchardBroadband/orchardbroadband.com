@@ -7,7 +7,7 @@
 		{{> header }}
 		{{#each collections.posts}}
 			<div class='post'>
-				<p>{{{title}}}</p>
+				<p><a href="/{{path}}">{{{title}}}</a></p>
 				<p>{{summary}}</p>
 			</div>
 		{{/each}}
