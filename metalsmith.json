@@ -2,7 +2,22 @@
   "source": "src",
   "destination": "build",
   "plugins": {
+    "metalsmith-debug": {},
+    "metalsmith-collections": {
+      "posts": {
+        "pattern": "blog/*.md"
+      }
+    },
     "metalsmith-markdown": true,
+    "metalsmith-permalinks": {
+      "relative": false,
+      "linksets": [{
+        "match": {
+          "collection": "posts"
+        },
+        "pattern": "blog/:date/:title"
+      }]
+    },
     "metalsmith-layouts": {
       "engine": "handlebars"
     }
