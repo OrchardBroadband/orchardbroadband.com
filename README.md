@@ -1,4 +1,7 @@
 # orchardbroadband.com
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/OrchardBroadband/orchardbroadband.com.svg)](https://greenkeeper.io/)
+
 Public site for Orchard Broadband
 
 ## Development
