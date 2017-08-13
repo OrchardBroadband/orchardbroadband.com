@@ -3,6 +3,7 @@
   "destination": "build",
   "plugins": {
     "metalsmith-debug": {},
+    "metalsmith-drafts": true,
     "metalsmith-collections": {
       "posts": {
         "pattern": "blog/*.md"
