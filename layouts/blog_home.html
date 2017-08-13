@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		{{> head }}
+		{{> head2 }}
 	</head>
 	<body>
-		{{> header }}
-		{{#each collections.posts}}
-			<div class='post'>
-				<p><a href="/{{path}}">{{{title}}}</a></p>
-				<p>{{summary}}</p>
+		{{> header2 }}
+		<div id="wrapper">
+			<div class="card">
+				<p>Recent Posts</p>
+				{{#each collections.posts}}
+					<div class='post'>
+						<p><a href="/{{path}}">{{{title}}}</a></p>
+						<p>{{summary}}</p>
+					</div>
+				{{/each}}
 			</div>
-		{{/each}}
+		</div>
 		{{> scripts }}
 	</body>
 </html>
