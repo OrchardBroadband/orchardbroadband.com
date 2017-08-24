@@ -19,7 +19,7 @@
 		{{> header2 }}
 		<div id="wrapper">
 			<div class="card center">
-				<object id="logo" type="image/svg+xml" data="/images/logo.svg">
+				<object class="logo" type="image/svg+xml" data="/images/logo.svg">
 					Orchard tree logo
 				</object>
 				{{{contents}}}
@@ -27,9 +27,12 @@
 			</div>
 		</div>
 		<script>
-			var logoObject = document.getElementById('logo');
-			logoObject.addEventListener('load', function() {
-				logoObject.contentDocument.getElementById('tree').setAttribute('style', 'fill: #1EADE2;');
+			var logoObjects = document.getElementsByClassName('logo');
+			console.log('logos', logoObjects);
+			Array.prototype.forEach.call(logoObjects, (logoObject) => {
+				logoObject.addEventListener('load', function() {
+					logoObject.contentDocument.getElementById('tree').setAttribute('style', 'fill: #1EADE2;');
+				});
 			});
 		</script>
 		{{> scripts }}
