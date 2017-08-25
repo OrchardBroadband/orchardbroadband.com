@@ -54,7 +54,7 @@ nav ul {
 	width: 100%;
 	right: 0;
 	top: 62px;
-	z-index: -1;
+	z-index: 5;
 }
 nav li {
 	flex: none;
@@ -74,26 +74,11 @@ nav a {
 nav input {
 	display: none;
 }
-nav input[type="checkbox"]:checked + label + ul  {
+nav input[type="checkbox"]:checked + ul  {
 	display: flex;
 	width: 100%;
 }
-nav input[type="checkbox"]:checked + label + ul li:nth-child(1){
-}
-nav label {
-	display: block;
-	width: 36px;
-	color: #000;
-	text-align: center;
-	line-height: 3.1rem;
-	font-size: 1.6rem;
-}
-nav label:hover {cursor:pointer;}
-nav label:before {
-	font-family: FontAwesome;
-	font-size: 1.5rem;
-	content: "\f0c9";
-	text-align: center;
+nav input[type="checkbox"]:checked + ul li:nth-child(1){
 }
 
 div.card {
@@ -146,10 +131,23 @@ p.medium {
 	display: flex;
 	justify-content: space-between;
 	padding: 6px;
-}
-#body {
 	position: relative;
-	z-index: -2;
+	z-index: 10;
+}
+#header label {
+	display: block;
+	width: 36px;
+	color: #000;
+	text-align: center;
+	line-height: 3.1rem;
+	font-size: 1.6rem;
+}
+#header label:hover {cursor:pointer;}
+#header label:before {
+	font-family: FontAwesome;
+	font-size: 1.5rem;
+	content: "\f0c9";
+	text-align: center;
 }
 
 #anchor {
