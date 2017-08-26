@@ -1,8 +1,9 @@
 # orchardbroadband.com
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/OrchardBroadband/orchardbroadband.com.svg)](https://greenkeeper.io/)
+Public site for Orchard Broadband - [https://www.orchardbroadband.com](https://www.orchardbroadband.com)
 
-Public site for Orchard Broadband
+[![Build Status](https://travis-ci.org/OrchardBroadband/orchardbroadband.com.svg?branch=master)](https://travis-ci.org/OrchardBroadband/orchardbroadband.com)
+[![Greenkeeper badge](https://badges.greenkeeper.io/OrchardBroadband/orchardbroadband.com.svg)](https://greenkeeper.io/)
 
 ## Development
 
