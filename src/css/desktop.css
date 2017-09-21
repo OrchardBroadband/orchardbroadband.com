@@ -24,15 +24,14 @@ nav.static a {
 
 div.section {}
 	div.section.top {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 120px;
+		padding-bottom: 120px;
 	}
 		div.section.top > div {
 			flex-direction: row;
 			justify-content: space-around;
 		}
 	div.section.top object {
-		display: block;
 		height: 300px;
 		width: 300px;
 	}

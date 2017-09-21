@@ -84,12 +84,17 @@ nav input[type="checkbox"]:checked + ul li:nth-child(1){
 div.section {}
 	div.section.top {
 		background-color: #1EADE2;
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 		div.section.top > div {
+			flex-direction: column;
 			display: flex;
 		}
 	div.section.top object {
-		display: none;
+		height: 150px;
+		margin: auto;
+		width: 150px;
 	}
 div.w-container {}
 div.card {
