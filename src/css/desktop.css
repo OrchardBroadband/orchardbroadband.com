@@ -1,20 +1,13 @@
-nav {
+nav.static {
 	margin: 6px;
-	position: absolute;
-	right: 0;
-	z-index: 15;
 }
-nav input[type="checkbox"]:checked + ul  {
-	width: auto;
-}
-nav ul {
+nav.static ul {
 	background: none;
 	box-shadow: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
-	margin: 8px auto;
 	max-width: none;
 	position: relative;
 	right: 0;
@@ -22,11 +15,30 @@ nav ul {
 	width: 100%;
 	z-index: auto;
 }
-nav li {
+nav.static li {
 	width: auto;
 }
-nav a {
+nav.static a {
 	padding: 0 10px;
+}
+
+div.section {}
+	div.section.top {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+		div.section.top > div {
+			flex-direction: row;
+			justify-content: space-around;
+		}
+	div.section.top object {
+		display: block;
+		height: 300px;
+		width: 300px;
+	}
+div.w-container {
+	margin: auto;
+	max-width: 960px;
 }
 
 #header label {

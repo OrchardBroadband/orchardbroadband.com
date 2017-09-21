@@ -1,21 +1,24 @@
 <div>
-	<nav class="menu">
+	<nav class="menu toggle">
 		<input type="checkbox" id="css-toggle-menu" name="css-toggle-menu" />
-		<ul>
-			<li><a href="/blog">Blog</a></li>
-		</ul>
+		{{> menu }}
 	</nav>
 	<div id="header">
-		<div id="anchor">
-			<div id="logo">
-				<a href="/" class="svg">
-					<object class="logo" type="image/svg+xml" data="/images/logo.svg">
-						Orchard tree logo
-					</object>
-				</a>
+		<div class="w-container">
+			<div id="anchor">
+				<div id="logo">
+					<a href="/" class="svg">
+						<object class="logo" type="image/svg+xml" data="/images/logo.svg">
+							Orchard tree logo
+						</object>
+					</a>
+				</div>
+				<h1><a href="/">Orchard Broadband</a></h1>
 			</div>
-			<h1><a href="/">Orchard Broadband</a></h1>
+			<nav class="menu static">
+				{{> menu }}
+			</nav>
+			<label for="css-toggle-menu" id="css-toggle-menu"></label>
 		</div>
-		<label for="css-toggle-menu" id="css-toggle-menu"></label>
 	</div>
 </div>

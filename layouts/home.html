@@ -17,6 +17,18 @@
 	</head>
 	<body>
 		{{> header2 }}
+		<div class="section top">
+			<div class="w-container">
+				<object class="logo white" type="image/svg+xml" data="/images/logo.svg">
+					Orchard tree logo
+				</object>
+				<div class="center">
+					<p class="medium">High-speed internet for Cedar&nbsp;Hills,&nbsp;UT</p>
+					<p class="medium">Coming Soon</p>
+					<a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAzZJhauUW6Q7h6K4DrTp20CgRhRW31Ja5TmBVbShd6CPaHA/viewform?usp=sf_link" class="button">Keep me posted!</a>
+				</div>
+			</div>
+		</div>
 		<div id="body">
 			<div class="card center">
 				<p class="medium">High-speed internet for Cedar&nbsp;Hills,&nbsp;UT</p>
@@ -32,7 +44,13 @@
 			console.log('logos', logoObjects);
 			Array.prototype.forEach.call(logoObjects, (logoObject) => {
 				logoObject.addEventListener('load', function() {
-					logoObject.contentDocument.getElementById('tree').setAttribute('style', 'fill: #1EADE2;');
+					var fill;
+					if (logoObject.classList.contains('white')) {
+						fill = '#FFFFFF';
+					} else {
+						fill = '#1EADE2';
+					}
+					logoObject.contentDocument.getElementById('tree').setAttribute('style', `fill: ${fill};`);
 				});
 			});
 		</script>
