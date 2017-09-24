@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		{{> header2 }}
-		<div class="section top">
+		<div class="section top blue">
 			<div class="w-container">
 				<object class="logo white" type="image/svg+xml" data="/images/logo.svg">
 					Orchard tree logo
@@ -29,14 +29,37 @@
 				</div>
 			</div>
 		</div>
-		<div id="body">
-			<div class="card center">
-				<p class="medium">High-speed internet for Cedar&nbsp;Hills,&nbsp;UT</p>
-				<object class="logo" type="image/svg+xml" data="/images/logo.svg">
-					Orchard tree logo
-				</object>
-				<p class="medium">Coming Soon</p>
-				<a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAzZJhauUW6Q7h6K4DrTp20CgRhRW31Ja5TmBVbShd6CPaHA/viewform?usp=sf_link" class="button">Keep me posted!</a>
+		<div class="section grey">
+			<div class="w-container center">
+				<p class="medium">Internet you don't have to think about</p>
+			</div>
+		</div>
+		<div class="section green row">
+			<div class="w-container">
+				<div class="center">
+					<p class="material-icons">sentiment_very_satisfied</p>
+					<p>It works when you need it, which is all the time</p>
+				</div>
+				<div class="center">
+					<p class="material-icons">home</p>
+					<p>We have a vested interest in Cedar Hills</p>
+				</div>
+				<div class="center">
+					<p class="material-icons">done_all</p>
+					<p>No contracts or annual negotiations</p>
+				</div>
+			</div>
+		</div>
+		<div class="section blue">
+			<div class="w-container">
+				<h1>Updates</h1>
+				{{#each collections.posts}}
+					<div class="post">
+						<p><a href="/{{path}}">{{{title}}}</a></p>
+						<p>{{summary}}</p>
+					</div>
+				{{/each}}
+				<p><a href="/blog">Read the Blog</a></p>
 			</div>
 		</div>
 		<script>

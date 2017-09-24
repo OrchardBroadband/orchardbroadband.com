@@ -22,19 +22,27 @@ nav.static a {
 	padding: 0 10px;
 }
 
-div.section {}
-	div.section.top {
-		padding-top: 120px;
-		padding-bottom: 120px;
-	}
+div.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+	div.section.top {}
 		div.section.top > div {
 			flex-direction: row;
 			justify-content: space-around;
 		}
-	div.section.top object {
-		height: 300px;
-		width: 300px;
-	}
+		div.section.top object {
+			height: 300px;
+			width: 300px;
+		}
+	div.section.row {}
+		div.section.row > div {
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		div.section.row > div div {
+			width: 25%;
+		}
 div.w-container {
 	margin: auto;
 	max-width: 960px;

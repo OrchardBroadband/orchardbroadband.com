@@ -1,5 +1,6 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
 
 html {
 	height: 100%;
@@ -81,20 +82,33 @@ nav input[type="checkbox"]:checked + ul  {
 nav input[type="checkbox"]:checked + ul li:nth-child(1){
 }
 
-div.section {}
-	div.section.top {
-		background-color: #1EADE2;
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
+div.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+	div.section.top {}
 		div.section.top > div {
 			flex-direction: column;
 			display: flex;
 		}
-	div.section.top object {
-		height: 150px;
-		margin: auto;
-		width: 150px;
+		div.section.top object {
+			height: 150px;
+			margin: auto;
+			width: 150px;
+		}
+	div.section.row {}
+		div.section.row > div {
+			display: flex;
+			flex-direction: column;
+		}
+	div.section.blue {
+		background-color: #1EADE2;
+	}
+	div.section.grey {
+		background-color: #606060;
+	}
+	div.section.green {
+		background-color: #91EA5E;
 	}
 div.w-container {}
 div.card {
