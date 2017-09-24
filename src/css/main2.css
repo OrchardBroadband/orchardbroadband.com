@@ -101,6 +101,9 @@ div.section {
 			display: flex;
 			flex-direction: column;
 		}
+		div.section.row p.material-icons {
+			font-size: 6em;
+		}
 	div.section.blue {
 		background-color: #1EADE2;
 	}
