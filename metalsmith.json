@@ -6,7 +6,9 @@
     "metalsmith-drafts": true,
     "metalsmith-collections": {
       "posts": {
-        "pattern": "blog/*.md"
+        "pattern": "blog/*.md",
+        "reverse": true,
+        "sortBy": "publishDate"
       }
     },
     "metalsmith-markdown": true,
