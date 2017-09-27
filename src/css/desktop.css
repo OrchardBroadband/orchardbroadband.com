@@ -43,6 +43,10 @@ div.section {
 		div.section.row > div div {
 			width: 25%;
 		}
+	div.section.blog {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
 div.w-container {
 	margin: auto;
 	max-width: 960px;

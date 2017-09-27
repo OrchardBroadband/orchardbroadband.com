@@ -10,10 +10,9 @@
 				{{#each collections.posts }}
 					<div class="card">
 						<div class="post">
-							<p><a href="/{{path}}">{{{ title }}}</a></p>
-							<p>{{{ publishDate }}}</p>
-							<p>{{ summary }}</p>
-							<p><a href="/{{path}}">Read More</a></p>
+							<p class="mocktitle"><a href="/{{path}}">{{{ title }}}</a> - <span class="publishdate">{{{ publishDate }}}</span></p>
+							<p class="summary">{{ summary }}</p>
+							<p class="tail"><a href="/{{path}}">Read More</a></p>
 						</div>
 					</div>
 				{{/each }}

@@ -165,6 +165,22 @@ p.medium {
 	margin: 1rem;
 }
 
+div.post p {
+	margin: 2rem 0;
+}
+div.post p.publishdate, div.post p.mocktitle, div.post p.tail {
+	margin: 0;
+}
+div.post .publishdate {
+	color: #A1A1A1;
+}
+div.post p.summary {
+	margin: 1rem 0;
+}
+div.post p.tail {
+	text-align: right;
+}
+
 #header {
 	background-color: #ddd;
 	box-shadow: 0px 0px 5px 1px #999;
