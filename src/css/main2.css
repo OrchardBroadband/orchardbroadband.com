@@ -104,6 +104,10 @@ div.section {
 		div.section.row p.material-icons {
 			font-size: 6em;
 		}
+	div.section.footer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	div.section.blue {
 		background-color: #1EADE2;
 	}
