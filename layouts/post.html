@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		{{> head }}
+		{{> head2 }}
 		<title>Orchard Broadband Blog | {{{title}}} | High-speed internet for Ceader Hills, UT</title>
 		<meta property="og:url" content="https://www.orchardbroadband.com/blog" />
 		<meta property="og:site_name" content="Orchard Broadband" />
@@ -16,8 +16,18 @@
 		<meta name="twitter:site" content="@orchardbroad" />
 	</head>
 	<body>
-		{{> header }}
-		{{{contents}}}
+		{{> header2 }}
+		<div class="section blog blue">
+			<div class="w-container">
+				<div class="card">
+					<div class="post">
+						<h1>{{{ title }}}</h1>
+						<p>{{{ publishDate }}}</p>
+						{{{ contents }}}
+					</div>
+				</div>
+			</div>
+		</div>
 		{{> scripts }}
 	</body>
 </html>

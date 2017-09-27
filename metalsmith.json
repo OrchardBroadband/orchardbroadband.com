@@ -16,7 +16,13 @@
         "match": {
           "collection": "posts"
         },
-        "pattern": "blog/:date/:title"
+        "pattern": "blog/:publishDate/:title"
+      }]
+    },
+    "metalsmith-date-formatter": {
+      "dates": [{
+        "key": "publishDate",
+        "format": "YYYY MMM D"
       }]
     },
     "metalsmith-layouts": {

@@ -2,7 +2,7 @@
 layout: post.html
 title: Introducing Orchard Broadband
 author: David Cox
-date: 2017-08-25
+publishDate: 2017-08-25
 summary: I haven’t been satisfied with my Internet Service Provider (ISP) for quite some time now. The quality of service has been dropping even though the price has been rising.
 ---
 
