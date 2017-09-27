@@ -22,10 +22,11 @@ nav.static a {
 	padding: 0 10px;
 }
 
-div.section {
-	padding-top: 120px;
-	padding-bottom: 120px;
-}
+div.section {}
+	div.section.padded {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 	div.section.top {}
 		div.section.top > div {
 			flex-direction: row;
@@ -44,7 +45,7 @@ div.section {
 			width: 25%;
 		}
 	div.section.blog {
-		padding-top: 80px;
+		padding-top: 30px;
 		padding-bottom: 80px;
 	}
 div.w-container {

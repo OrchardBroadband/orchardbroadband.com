@@ -52,7 +52,7 @@ nav ul {
 	flex: 1;
 	flex-wrap: wrap;
 	padding: 0;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	right: 0;
 	top: 62px;
@@ -84,9 +84,12 @@ nav input[type="checkbox"]:checked + ul li:nth-child(1){
 }
 
 div.section {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding: 1px;
 }
+	div.section.padded {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
 	div.section.top {}
 		div.section.top > div {
 			flex-direction: column;
@@ -125,7 +128,7 @@ div.card {
 	border-radius: 2px;
 	box-shadow: 0px 2px 16px #999;
 	padding: 24px;
-	margin: 12px
+	margin: 12px;
 }
 div.card object {
 	margin: 0 auto;
