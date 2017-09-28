@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "metalsmith",
+    "deploy": "npm run test && npm run deploy:scp",
+    "deploy:scp": "scp2 build/ username:password@104.131.164.107:/srv/http/orchardbroadband.com/",
     "dev": "concurrently --kill-others \"npm run serve\" \"npm run watch\"",
     "serve": "http-server ./build",
     "test": "npm run test:build",
@@ -34,6 +36,7 @@
     "metalsmith-drafts": "0.0.1",
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.5.0"
+    "metalsmith-permalinks": "^0.5.0",
+    "scp2": "^0.5.0"
   }
 }
