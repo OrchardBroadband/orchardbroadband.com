@@ -32,6 +32,6 @@ describe('build blog home', () => {
 
 describe('build blog posts', () => {
 	test('exists', () => {
-		expect(fs.existsSync('build/blog/2017/08/25/introducing-orchard-broadband/index.html')).toBeTruthy()
+		expect(fs.existsSync('build/blog/2017/09/27/introducing-orchard-broadband/index.html')).toBeTruthy()
 	});
 });
