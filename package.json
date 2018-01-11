@@ -29,7 +29,7 @@
     "concurrently": "^3.5.0",
     "handlebars": "^4.0.10",
     "http-server": "^0.10.0",
-    "jest": "^21.2.1",
+    "jest": "^22.0.6",
     "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-date-formatter": "^1.0.2",
