@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		{{> head2018 }}
+		<title>Orchard Broadband | High-speed internet for Ceader Hills, UT</title>
+		<meta property="og:url" content="https://www.orchardbroadband.com" />
+		<meta property="og:site_name" content="Orchard Broadband" />
+		<meta property="og:title" content="Welcome to Orchard Broadband" />
+		<meta property="og:description" content="Custom internet for Cedar Hills, UT" />
+		<meta property="og:image" content="https://www.orchardbroadband.com/logo-filled.png" />
+		<meta property="og:image:secure_url" content="https://www.orchardbroadband.com/logo-filled.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:height" content="300" />
+		<meta property="og:image:width" content="300" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@orchardbroad" />
+	</head>
+	<body>
+		{{> header2018 }}
+		<div>
+			<div class="section" id="hero">
+				<div class="width-constrained container middle">
+					<div>
+						<h3>Custom Internet</h3>
+						<h1>Coming 2018</h1>
+					</div>
+					<p><a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAzZJhauUW6Q7h6K4DrTp20CgRhRW31Ja5TmBVbShd6CPaHA/viewform?usp=sf_link" class="button">Keep me posted!</a></p>
+				</div>
+			</div>
+			<div class="section dark">
+				<div class="width-constrained container middle">
+					<ul class="large">
+						<li>
+							<span class="icon material-icons">sentiment_very_satisfied</span>
+							<div>
+								<h2>Fits your needs</h2>
+								<p>We'll help you understand your internet usage so you can pick the speed that's right for you.</p>
+							</div>
+						</li>
+						<li>
+							<span class="icon material-icons">home</span>
+							<div>
+								<h2>Cedar Hills local</h2>
+								<p>We live within the service area and use our own product, so we're keeping a close eye on uptime.</p>
+							</div>
+						</li>
+						<li>
+							<span class="icon material-icons">done_all</span>
+							<div>
+								<h2>No contracts or annual negotiations</h2>
+								<p>We're not going to keep you locked into a contract,<br />and you're not going to have to threaten to leave every year to keep your price low.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section">
+				<div class="width-constrained">
+					<h3>Updates</h3>
+					{{#each collections.posts }}
+						<div class="width-text">
+							<div class="post">
+								<p class="mocktitle"><a href="/{{path}}">{{{ title }}}</a> - <span class="publishdate">{{{ publishDate }}}</span></p>
+								<p class="summary">{{ summary }}</p>
+								<p class="tail"><a href="/{{path}}">Read More</a></p>
+							</div>
+						</div>
+					{{/each }}
+					<p><a href="/blog">Read the Blog</a></p>
+				</div>
+			</div>
+		</div>
+		{{> footer }}
+		{{> scripts2018 }}
+	</body>
+</html>

@@ -1,0 +1,24 @@
+<div>
+	<nav class="menu toggle">
+		<input type="checkbox" id="css-toggle-menu" name="css-toggle-menu" />
+		{{> menu }}
+	</nav>
+	<div id="header">
+		<div class="width-constrained container">
+			<div id="anchor" class="container middle">
+				<div id="logo">
+					<a href="/" class="svg">
+						<object class="logo" type="image/svg+xml" data="/images/logo.svg">
+							Orchard tree logo
+						</object>
+					</a>
+				</div>
+				<p id="ob"><a href="/">Orchard Broadband</a></p>
+			</div>
+			<nav class="menu static">
+				{{> menu }}
+			</nav>
+			<label for="css-toggle-menu" id="css-toggle-menu"></label>
+		</div>
+	</div>
+</div>

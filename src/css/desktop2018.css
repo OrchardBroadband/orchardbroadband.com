@@ -1,0 +1,63 @@
+h1 {
+	font-size: 7rem;
+	margin: .5rem 0;
+}
+h2 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+nav.static {
+	margin: 6px;
+}
+nav.static ul {
+	background: none;
+	box-shadow: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	max-width: none;
+	position: relative;
+	right: 0;
+	top: auto;
+	width: 100%;
+	z-index: auto;
+}
+nav.static li {
+	width: auto;
+}
+nav.static a {
+	padding: 0 10px;
+}
+
+ul.large span.icon {
+	font-size: 8rem;
+}
+
+div.section {
+	padding: 50px;
+}
+div.section.blog {
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+div.width-constrained {
+	max-width: 1200px;
+}
+div.width-text {
+	max-width: 900px;
+}
+div.container {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#header label {
+	display: none;
+}
+#hero > div {
+	flex-direction: column;
+	height: 30rem;
+	justify-content: center;
+}
