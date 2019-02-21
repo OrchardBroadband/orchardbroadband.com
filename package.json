@@ -37,7 +37,7 @@
     "metalsmith-drafts": "0.0.1",
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-permalinks": "^2.2.0",
     "scp2": "^0.5.0"
   }
 }
