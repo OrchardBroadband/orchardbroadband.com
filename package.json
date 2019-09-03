@@ -27,7 +27,7 @@
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
     "concurrently": "^3.5.0",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.2.0",
     "http-server": "^0.10.0",
     "jest": "^21.2.1",
     "metalsmith": "^2.3.0",
